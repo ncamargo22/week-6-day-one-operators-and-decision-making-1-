@@ -55,7 +55,10 @@ print(my_bool)
  
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
-
+num1 = 36
+num2 = 17
+my_bool = num1 >= num2
+print(my_bool)
 
 # Comparison Operators Practice  2:
 # Create two variables (num1 and num2):
@@ -125,8 +128,19 @@ print(my_bool)
 
 
 ########################################decision making in python#####################################
+#lesson 
+if 5 == 2:
+  print("it is correct")
+else:
+  print("it is not correct")
 
-
+  pet = 'rabbit'
+  if pet == 'cat':
+    print("you have cat")
+  elif pet == 'dog' :
+    print("you have a dog")
+  else: 
+    print("I don't know what animal you have")
 
 # Decision Making Practice #1
 # Using the variables num1 and num2, which are fed with user input (just like in the provided code), create a flow control structure that compares the values of the variables, and returns a result according to the case:
